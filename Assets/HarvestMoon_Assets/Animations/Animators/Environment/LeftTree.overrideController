@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeftTree
+  m_Controller: {fileID: 9100000, guid: e6d14e6092b951444bb1aad64094ad45, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1b1e8a1cdec56ad4ba947d7d8e73276b, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 27b76f5b669c5bb4b93f5e30d181f1a7, type: 3}

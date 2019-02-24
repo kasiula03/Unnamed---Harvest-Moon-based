@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 92ada99fd1f545b4a8cd8e85c9a389a0
+timeCreated: 1472496601
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm__L
+    100002: Arm__R
+    100004: Armature
+    100006: Body
+    100008: Chest
+    100010: Elbow__L
+    100012: Elbow__R
+    100014: Feet__L
+    100016: Feet__R
+    100018: Forearm__L
+    100020: Forearm__R
+    100022: Head
+    100024: Leg__L
+    100026: Leg__R
+    100028: Leg_IK__L
+    100030: Leg_IK__R
+    100032: //RootNode
+    100034: Stomach
+    400000: Arm__L
+    400002: Arm__R
+    400004: Armature
+    400006: Body
+    400008: Chest
+    400010: Elbow__L
+    400012: Elbow__R
+    400014: Feet__L
+    400016: Feet__R
+    400018: Forearm__L
+    400020: Forearm__R
+    400022: Head
+    400024: Leg__L
+    400026: Leg__R
+    400028: Leg_IK__L
+    400030: Leg_IK__R
+    400032: //RootNode
+    400034: Stomach
+    4300000: Body
+    7400000: Default Take
+    7400002: Walking
+    9500000: //RootNode
+    13700000: Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Elbow__L
+        weight: 1
+      - path: Armature/Elbow__R
+        weight: 1
+      - path: Armature/Forearm__L
+        weight: 1
+      - path: Armature/Forearm__L/Arm__L
+        weight: 1
+      - path: Armature/Forearm__R
+        weight: 1
+      - path: Armature/Forearm__R/Arm__R
+        weight: 1
+      - path: Armature/Leg__L
+        weight: 1
+      - path: Armature/Leg__R
+        weight: 1
+      - path: Armature/Leg_IK__L
+        weight: 1
+      - path: Armature/Leg_IK__L/Feet__L
+        weight: 1
+      - path: Armature/Leg_IK__R
+        weight: 1
+      - path: Armature/Leg_IK__R/Feet__R
+        weight: 1
+      - path: Armature/Stomach
+        weight: 1
+      - path: Armature/Stomach/Chest
+        weight: 1
+      - path: Armature/Stomach/Chest/Head
+        weight: 1
+      - path: Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking
+      takeName: Walking
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Elbow__L
+        weight: 1
+      - path: Armature/Elbow__R
+        weight: 1
+      - path: Armature/Forearm__L
+        weight: 1
+      - path: Armature/Forearm__L/Arm__L
+        weight: 1
+      - path: Armature/Forearm__R
+        weight: 1
+      - path: Armature/Forearm__R/Arm__R
+        weight: 1
+      - path: Armature/Leg__L
+        weight: 1
+      - path: Armature/Leg__R
+        weight: 1
+      - path: Armature/Leg_IK__L
+        weight: 1
+      - path: Armature/Leg_IK__L/Feet__L
+        weight: 1
+      - path: Armature/Leg_IK__R
+        weight: 1
+      - path: Armature/Leg_IK__R/Feet__R
+        weight: 1
+      - path: Armature/Stomach
+        weight: 1
+      - path: Armature/Stomach/Chest
+        weight: 1
+      - path: Armature/Stomach/Chest/Head
+        weight: 1
+      - path: Body
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

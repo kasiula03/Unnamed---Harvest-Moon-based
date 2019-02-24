@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e624c200d5e7a84a96a0a5d10e83741, type: 3}
+  m_Name: Calendar
+  m_EditorClassIdentifier: 
+  timeData: {fileID: 11400000, guid: 2575d52c2f93afe458e5f0ffcb8ab9e8, type: 2}
+  currentDay: 31
+  year: 6
+  yearLenth: 120
+  currentSeason: 2
