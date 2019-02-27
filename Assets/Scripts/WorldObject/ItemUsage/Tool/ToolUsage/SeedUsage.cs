@@ -20,7 +20,8 @@ public class SeedUsage : ToolUsage
 
     private void ThrowSeed(GameObject field)
     {
-        Instantiate(cropToSpawn, Vector3.zero, cropToSpawn.transform.rotation, field.transform);
+        GameObject obj = Instantiate(cropToSpawn, field.transform, true);
+        obj.transform.localPosition = new Vector3(0, 0, 0.05f);
         Debug.Log("Seed " + cropToSpawn.name + " has been planted");
     }
 }

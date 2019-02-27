@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WorldTimeData
   m_EditorClassIdentifier: 
   timeMultiplier: 1
-  currentTime: 0.56844056
+  currentTime: 0.19557934
   startDayTime: 1
   dayLongInSeconds: 60

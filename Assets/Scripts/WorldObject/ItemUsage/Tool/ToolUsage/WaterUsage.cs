@@ -13,4 +13,9 @@ public class WaterUsage : ToolUsage
         }
         yield return null;
     }
+
+    protected override bool HitObjectFilter(Collider collider)
+    {
+        return collider.GetComponent<Crop>();
+    }
 }
