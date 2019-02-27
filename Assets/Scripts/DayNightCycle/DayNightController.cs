@@ -32,31 +32,32 @@ public class DayNightController : MonoBehaviour
             worldTimeData.currentTime = 0;
             calendarData.AddDay();
             seasonText.text = calendarData.CurrentSeason().ToString();
-            // calendarRound.rectTransform.anchoredPosition = calendarData.CalendarRoundPosition();
             Crop[] crops = FindObjectsOfType<Crop>();
             Array.ForEach(crops, crop => crop.AddDay());
 
         }
 
-        float rot = Mathf.Lerp(0, 360, worldTimeData.currentTime);
+        // 0 rotation from world data 0.25
+
+        float sunRotation = Mathf.Lerp(0, 360, worldTimeData.currentTime * 0.8f) - 90;
         float moonlightRot = Mathf.Lerp(0, 360, 1 - worldTimeData.currentTime);
-        sunlight.transform.rotation = Quaternion.Euler(rot, 0, 0);
+        sunlight.transform.rotation = Quaternion.Euler(sunRotation, 0, 0);
         moonLight.transform.rotation = Quaternion.Euler(moonlightRot, 0, 0);
 
         SetTimeUI();
-        if (worldTimeData.currentTime >= 0.52f)
+        if (worldTimeData.currentTime >= 0.9f || worldTimeData.currentTime < 0.25f)
         {
             RenderSettings.ambientSkyColor = nightColors.skyColor;
             RenderSettings.ambientEquatorColor = nightColors.equatorColor;
             RenderSettings.ambientGroundColor = nightColors.horizonColor;
         }
-        else if (worldTimeData.currentTime >= 0f && worldTimeData.currentTime <= 0.45f)
+        else if (worldTimeData.currentTime >= 0.25f && worldTimeData.currentTime < 0.8f)
         {
             RenderSettings.ambientSkyColor = dayColors.skyColor;
             RenderSettings.ambientEquatorColor = dayColors.equatorColor;
             RenderSettings.ambientGroundColor = dayColors.horizonColor;
         }
-        else if (worldTimeData.currentTime >= 0.45f && worldTimeData.currentTime < 0.52f)
+        else if (worldTimeData.currentTime >= 0.8f && worldTimeData.currentTime < 0.9f)
         {
             RenderSettings.ambientSkyColor = dawnColors.skyColor;
             RenderSettings.ambientEquatorColor = dawnColors.equatorColor;
